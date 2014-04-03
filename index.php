@@ -7,7 +7,7 @@ require_once "tmp/default/speedbar.tpl";
 ?>
 <link rel="StyleSheet" type="text/css" href="main/css/news.css">
 <?php
-  // Выставляем уровень обработки ошибок (http://www.softtime.ru/info/articlephp.php?id_article=23)
+  // Выставляем уровень обработки ошибок
   Error_Reporting(E_ALL & ~E_NOTICE); 
 
   // Этот файл выводит первые $pnumber новостей
